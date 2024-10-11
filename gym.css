@@ -169,12 +169,18 @@ margin-top: -4px;
 }
 .con1{
     height: 758px;
-    background-image: url(https://t3.ftcdn.net/jpg/06/08/15/96/360_F_608159635_oQ0NJZIj1XCGlSaptlc0m1g0jb5M1SL8.jpg);
-    background-size: cover;
 margin-left: 10px;
 margin-right: 10px;
 margin-top: -68px;
+     animation:flex 10s linear infinite;
 }
+   @keyframes flex{
+0%{background-image: url(https://images4.alphacoders.com/805/805233.jpg);}
+30%{background-image: url(https://t3.ftcdn.net/jpg/04/31/55/92/360_F_431559277_rkkDdPgYlypnPwf4EoDIlvkVDiWNBBft.jpg);}
+60%{background-image: url(https://img.freepik.com/premium-photo/discipline-wallpaper-motivation-gym-business-wall_1279815-10947.jpg);}
+100%{background-image: url(https://t4.ftcdn.net/jpg/06/31/52/63/360_F_631526348_iyXBhrHcirGz44bTZejMB1IVAjmdUp92.jpg);}
+    }
+    
 
 .p2{
     font-size: 4rem;
@@ -381,11 +387,11 @@ border-radius: 200px;
     margin-left: 20px;
 }
 #button1{
-    width: 20px;
+      width: 28px;
     height: 10px;
     font-size: 8px;
     justify-content: center;
-    margin-left:-50px;
+  margin-left:200px;
 }
 #gym1{
     height: 300px;
