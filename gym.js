@@ -7,4 +7,4 @@ window.addEventListener('scroll',function(){
         navbar.classList.remove('scrolled');
     }
 });
-alert("thanks to visit my website")
+alert("Thanks to visit my website")
